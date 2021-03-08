@@ -58,17 +58,16 @@ Hi {}~ Watashi Wa Kyouka Desu! I will cheer you up if you are bored. I also have
 """
 
 HELP_STRINGS = """
-Hey there! My name is Mihai!.
+Hey there! Watashi wa kyouka desu~.
 I'm From Port Mafia & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
-*Main* commands available: [><](https://telegra.ph/file/4b2c08330c8e0f51e1771.jpg)
- 🎀 /help: PM's you this message.
- 🎀 /help <module name>: PM's you info about that module.
- 🎀 /donate: information on how to donate!
- 🎀 /settings:
-   🎀 in PM: will send you your settings for all supported modules.
-   🎀 in a group: will redirect you to pm, with all that chat's settings.
+*Main* commands available: [><](https://telegra.ph/file/923c659a6c31f418c9f32.jpg)
+ 🥢 /help: PM's you this message.
+ 🥢 /help <module name>: PM's you info about that module.
+ 🥢 /settings:
+   🥢 in PM: will send you your settings for all supported modules.
+   🥢 in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
@@ -77,7 +76,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/703e8a361321c66c51cf2.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/dc5cd6e3625d5e635d25b.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
@@ -200,23 +199,23 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=" 👑 Summon Me ",
-                            url="t.me/MihaiFlorescuRobot?startgroup=true".format(
+                            text=" 🌸 add me to your group ",
+                            url="t.me/Kyouka_botrobot?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
                              text="🎧 SUPPORT Bot",
-                             url="https://t.me/mihaiflorecubot")
+                             url="https://t.me/kyoukaSupport")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" ✨ Help ",
-                            url="https://t.me/MihaiFlorescuRobot?start=help"),
+                            url="https://t.me/Kyouka_botrobot?start=help"),
                          
                      ],
                      [
                         InlineKeyboardButton(
-                             text="📓 Starter Guide Bot ",
-                             url="https://t.me/MihaliFlorescuBot")
+                             text="my owner🐧  ",
+                             url="https://t.me/Nathalie_Agathaa")
                     
                     ]]))
     else:
